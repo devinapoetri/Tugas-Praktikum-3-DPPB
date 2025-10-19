@@ -38,3 +38,8 @@ void main() {
   mobil2.ubahKecepatan(-20);
   mobil2.berhenti();
 }
+
+// program di atas mendefinisikan kelas Mobil dengan atribut merk, warna, dan kecepatan serta metode untuk mengatur perilaku mobil seperti jalan, ubahKecepatan, dan berhenti. 
+// Metode ubahKecepatan memeriksa apakah nilai kecepatan yang diberikan negatif dan menampilkan pesan error jika demikian.
+// Di dalam fungsi main, dua objek Mobil dibuat dengan merk, warna, dan kecepatan yang berbeda
+
