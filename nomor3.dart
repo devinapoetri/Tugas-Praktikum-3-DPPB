@@ -18,3 +18,8 @@ void main() {
   bottle.open();
 }
 
+// program tersebut menggunakan factory constructor untuk mengembalikan instance dari kelas CokeBottle yang mengimplementasikan interface Bottle.
+// ketika Bottle() dipanggil, factory constructor membuat dan mengembalikan objek CokeBottle. Ini memungkinkan penggunaan pola desain factory untuk mengabstraksi pembuatan objek.
+// sehingga, ketika metode open() dipanggil pada objek bottle, implementasi dari CokeBottle yang dijalankan, mencetak "Coke Bottle is opened".
+
+
