@@ -122,3 +122,7 @@ void main() {
   GosipBekatul solver = GosipBekatul(N, M, K, B, G, edges);
   print(solver.solve());
 }
+
+// program di atas mendefinisikan kelas GosipBekatul yang menyelesaikan masalah pengelompokan bebek berdasarkan gosip menggunakan struktur data Disjoint Set Union (DSU).
+// Kelas ini memiliki metode untuk membangun komponen gosip, menghitung ketidakpuasan untuk setiap komponen berdasarkan bekatul yang tersedia, dan menyelesaikan perhitungan total ketidakpuasan.
+// Fungsi main membaca input dari stdin, menginisialisasi objek GosipBekatul, dan mencetak hasil solusi ke stdout.
